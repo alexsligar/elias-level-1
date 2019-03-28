@@ -1,0 +1,11 @@
+body {
+    background: green url('rainbow_unicorn.jpg') no-repeat top right;
+}
+
+p {
+    color: red;
+}
+
+h1, p {
+    text-align: center;
+}
