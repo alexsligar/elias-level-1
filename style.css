@@ -1,11 +1,38 @@
 body {
-    background: green url('rainbow_unicorn.jpg') no-repeat top right;
+    background-image: url("https://media.giphy.com/media/Qc4i40SWi42rK/giphy.gif");
+    background-size: 100px;
+    background-repeat: repeat;
+}
+
+h1{
+    font-size: 100px
 }
 
 p {
     color: red;
+    font-weight: bold;
+    font-size: 50px
 }
 
 h1, p {
     text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid cyan;
+    border-radius: 15px;
+}
+
+#panel {
+    background: yellow;
+    width: 30%;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid cyan;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }
